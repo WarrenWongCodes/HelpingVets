@@ -1,0 +1,28 @@
+{
+  "name": "helpingvets",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server",
+    "start:dev": "nodemon server",
+    "build": "webpack --mode production",
+    "build:dev": "webpack -w --mode development"
+  },
+  "author": "Warren Wong",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "jshint": "^2.13.1",
+    "nodemon": "^2.0.12",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
+  },
+  "dependencies": {
+    "bootstrap": "^3.4.1",
+    "express": "^4.17.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
