@@ -3,12 +3,12 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './Home.jsx';
 import Resources from './Resources.jsx';
 import About from './About.jsx';
-import NavBar from './NavBar.jsx';
+import NavBar from './navbar/NavBar.jsx';
 
 export default function App() {
   return (
     <Router>
-      <div className={'App container'}>
+      <div className={'container'}>
         <header>
           <NavBar />
         </header>

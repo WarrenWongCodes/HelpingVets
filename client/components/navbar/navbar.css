@@ -1,0 +1,9 @@
+#navBar {
+  float: right;
+}
+
+.navBarLinks {
+  margin-right: 25px;
+  text-decoration: none;
+  color: black;
+}
