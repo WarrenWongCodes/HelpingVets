@@ -1,5 +1,6 @@
 import React from 'react';
 import './blurb.css';
+import { Link } from 'react-router-dom';
 
 // TODO: Add an image, and background image
 export default function Blurb() {
@@ -14,7 +15,9 @@ export default function Blurb() {
       </p>
       <p>The best part? It's all free and open source!</p>
       <button type="button" className="btn btn-primary">
-        Learn More
+        <Link id="learnMoreBtn" to="/about">
+          Learn More
+        </Link>
       </button>
     </section>
   );
