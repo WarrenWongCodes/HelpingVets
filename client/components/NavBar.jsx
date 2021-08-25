@@ -1,6 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-// Resources and about link
 export default function NavBar() {
-  return <div>Nav Bar</div>;
+  return (
+    <nav id="navBar">
+      <Link to={'/resources'}>Resources</Link>
+      <Link to={'/about'}>About</Link>
+    </nav>
+  );
 }
