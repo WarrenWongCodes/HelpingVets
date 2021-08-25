@@ -1,4 +1,5 @@
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: path.resolve(__dirname, 'client/index.jsx'),
@@ -24,6 +25,11 @@ module.exports = {
       },
     ],
   },
+  // plugins: [
+  //   new HtmlWebpackPlugin({
+  //     favicon: './client/assets/favicon.ico',
+  //   }),
+  // ],
   mode: 'development',
   devtool: 'eval-source-map',
 };
