@@ -8,7 +8,7 @@ import NavBar from './NavBar.jsx';
 export default function App() {
   return (
     <Router>
-      <div className="App">
+      <div className={'App container'}>
         <header>
           <NavBar />
         </header>

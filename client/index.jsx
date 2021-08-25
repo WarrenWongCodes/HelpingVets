@@ -9,4 +9,6 @@ global.jQuery = require('jquery');
 const bootstrap = require('bootstrap');
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import './styles/global.css';
+
 ReactDOM.render(<App />, document.getElementById('app'));
