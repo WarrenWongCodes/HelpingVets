@@ -1,4 +1,5 @@
 import React from 'react';
+import ProgramsCarousel from './ProgramsCarousel.jsx';
 import './programsSection.css';
 
 // TODO: add a carousel with cards (different programs)
@@ -13,6 +14,7 @@ export default function ProgramsSection() {
       aria-labelledby="programSectionHeading"
     >
       <h2 id="programSectionHeading">Transition Programs</h2>
+      <ProgramsCarousel />
     </section>
   );
 }
