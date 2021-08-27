@@ -3,3 +3,12 @@
   margin: 0 auto;
   max-width: 1000px;
 }
+
+.sectionCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 500px;
+}

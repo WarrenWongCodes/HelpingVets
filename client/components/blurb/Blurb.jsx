@@ -5,7 +5,11 @@ import { Link } from 'react-router-dom';
 // TODO: Add an image, and background image
 export default function Blurb() {
   return (
-    <section id="blurb" aria-labelledby="blurbSectionHeading">
+    <section
+      id="blurb"
+      className="sectionCenter"
+      aria-labelledby="blurbSectionHeading"
+    >
       <h1 id="blurbSectionHeading">Helping Veterans Succeed in Tech</h1>
       <p>
         A collection of the best resources for transitioning service members and
