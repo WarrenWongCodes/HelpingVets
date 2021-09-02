@@ -1,17 +1,20 @@
 import React from 'react';
-import image from '../../assets/Test.png';
+import breakLine from '../../assets/break-line.png';
 import './programCard.css';
 
 export default function ProgramCard() {
   return (
     <div>
       <div className="card mb-3 programCards">
-        <img src={image} className="card-img-top" alt="testImage" />
+        <img src={breakLine} className="card-img-top" alt="Break Line Tech" />
         <div className="card-body">
-          <h5 className="card-title">Card title</h5>
+          <h5 className="card-title">BreakLine Tech</h5>
           <p className="card-text">
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
+            BreakLine provides education and coaching for exceptional,
+            high-performing veterans who are interested in pivoting into the
+            tech industry. Our virtual month-long program is designed to help
+            you successfully land a role in tech and build your professional
+            network.
           </p>
           <p className="card-text">
             <button type="button" className="btn btn-primary">
@@ -26,17 +29,6 @@ export default function ProgramCard() {
           </p>
         </div>
       </div>
-      {/* <div className="card bg-dark text-white">
-        <img src={image} className="card-img" alt="..." />
-        <div className="card-img-overlay">
-          <h5 className="card-title">Card title</h5>
-          <p className="card-text">
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
-          </p>
-          <p className="card-text">Last updated 3 mins ago</p>
-        </div>
-      </div> */}
     </div>
   );
 }
