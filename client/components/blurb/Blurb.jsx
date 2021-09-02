@@ -19,7 +19,7 @@ export default function Blurb() {
       </p>
       <p>The best part? It's all free and open source!</p>
       <button type="button" className="btn btn-primary">
-        <Link id="learnMoreBtn" to="/about">
+        <Link className="buttonStyle" to="/about">
           Learn More
         </Link>
       </button>

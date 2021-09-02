@@ -14,7 +14,15 @@ export default function ProgramCard() {
             to additional content. This content is a little bit longer.
           </p>
           <p className="card-text">
-            <small className="text-muted">Last updated 3 mins ago</small>
+            <button type="button" className="btn btn-primary">
+              <a
+                className="buttonStyle"
+                href="https://breakline.org/"
+                target="_blank"
+              >
+                Learn More
+              </a>
+            </button>
           </p>
         </div>
       </div>

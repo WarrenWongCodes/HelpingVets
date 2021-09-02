@@ -12,3 +12,14 @@
   text-align: center;
   height: 500px;
 }
+
+/* Default Button Styling */
+.buttonStyle {
+  color: white;
+  text-decoration: none;
+}
+
+.buttonStyle:hover {
+  color: white;
+  text-decoration: none;
+}
