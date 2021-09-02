@@ -15,4 +15,4 @@ ehthumbs.db
 Thumbs.db
 
 .env
-/public/bundle.js
+public/bundle.js
